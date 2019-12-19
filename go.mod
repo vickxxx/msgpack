@@ -1,4 +1,4 @@
-module github.com/vmihailenco/msgpack/v4
+module github.com/vmihailenco/msgpack
 
 require (
 	github.com/golang/protobuf v1.3.2 // indirect

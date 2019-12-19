@@ -24,13 +24,13 @@ This project uses [Go Modules](https://github.com/golang/go/wiki/Modules) and se
 
 ``` shell
 go mod init github.com/my/repo
-go get github.com/vmihailenco/msgpack/v4
+go get github.com/vmihailenco/msgpack
 ```
 
 ## Quickstart
 
 ``` go
-import "github.com/vmihailenco/msgpack/v4"
+import "github.com/vmihailenco/msgpack"
 
 func ExampleMarshal() {
 	type Item struct {
