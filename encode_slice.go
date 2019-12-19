@@ -3,7 +3,7 @@ package msgpack
 import (
 	"reflect"
 
-	"github.com/vmihailenco/msgpack/codes"
+	"github.com/vickxxx/msgpack/codes"
 )
 
 var sliceStringType = reflect.TypeOf(([]string)(nil))
